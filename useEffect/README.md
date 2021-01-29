@@ -187,7 +187,7 @@ Ex: Function
     function App(){
       const [name, setName] = useState("")
       const [newName, setNewName] = useState("")
-      
+        
       function handleChange(e){
         setName(e.target.value)
       }
